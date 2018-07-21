@@ -1,0 +1,252 @@
+
+$m-size:2rem;
+$l-size:10srem;
+$white:#f2f2f2;
+$dark-blue: #330099;
+$pink: #ddccff;
+$mellow-red: #ff4d4d;
+$dark-orange: #ff6600;
+$light-green: #80ff80;
+$yellow : #e6e600;
+$blue-cherk:#669999;
+$purple : #990099;
+$light-pink: #ffb3b3;
+
+
+
+.navbar{
+    background:$white ;
+
+}
+.navbar__collapsables{
+    
+    margin-left: auto;
+    margin-right:$l-size ;
+    
+}
+.nav-item{
+    margin-right:$m-size;
+}
+.header{
+    color:$white;
+    height: 50vh;
+    width: 100%;
+    margin: $m-size auto 0 auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #9999ff ;  
+
+}
+.header__text{
+    font-size: 4vw;
+}
+
+.section1{
+    background: $white;
+    padding-bottom: $m-size;
+}
+
+.secondHeader{
+    height: 50vh;
+    width: 80%;
+    margin:0 auto 0 auto;
+    padding-top:$m-size; 
+    display: flex;
+    justify-content: center ;
+    
+
+}
+
+.secondHeader__item1{
+    height: 100%;
+    width:32%;
+    background-color: $dark-blue;
+}
+.secondHeader__item2{
+    height: 100%;
+    width:32%;
+    margin:0 1% 0 1% ;
+    background-color: $pink;
+}
+.secondHeader__item3{
+    height: 100%;
+    width:32%;
+}
+.secondHeader__item3__part1{
+    height: 50%;
+    width:100%;
+    background-color: $mellow-red;
+}
+.secondHeader__item3__part2{
+    margin-top:2%; 
+    height: 48%;
+    width:100%;
+    background-color: $dark-orange;
+}
+
+.categoryPicker{
+    margin: $m-size 0 $m-size 0 ;
+    font: italic;
+    text-align: center;
+}
+.categories{
+    font-size:2vw;
+    margin: $m-size auto $m-size auto ;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.shelf{
+    margin:$m-size auto $m-size auto;
+    height: 100vh;
+    width: 80%;
+}
+.shelf__layer{
+    height: 50%;
+    width: 100%;
+    margin-top:$m-size;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.shelf__layer__item{
+    height: 100%;
+    width:23%;
+    background:$light-green;
+}
+.bests{
+    height: 60vh;
+    margin:$m-size auto $m-size auto; 
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bests__item{
+    height: 100%;
+    width:23%;
+    background:$yellow;
+}
+
+.bottomBoard{
+    height: 60vh;
+    background: $blue-cherk;
+    width: 100%;
+    color:$white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2vw;
+}
+
+.articles{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.articles__item{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.articles__item__image{
+    height: 100%;
+    width: 50%;
+    background:$purple;
+}
+.articles__item__text{
+    background: $white;
+    text-align: center;
+    padding: 2px;
+    font-size:2vw;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.footer {
+    height: 30vh;
+    width: 100%;
+    background-color: $light-pink;
+    color:black;
+    text-align: center;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+ }
+@media only screen and (max-width: 600px){
+    .header{
+        color:$white;
+        height: 25vh;
+        width: 100%;
+        margin: $m-size auto $m-size auto ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:  #9999ff ;  
+    
+    }
+    .secondHeader{
+        height: 25vh;
+        width: 80%;
+    
+        margin-top:$m-size;
+        margin-left: auto ;
+        margin-right: auto;
+        display: flex;
+        justify-content: center ;
+        
+    
+    }
+    .categories{
+        font-size:3vw;
+        margin: $m-size auto $m-size auto ;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .shelf{
+        margin:$m-size auto $m-size auto;
+        height: 40vh;
+        width: 80%;
+    }
+
+    .bests{
+        height: 20vh;
+        margin:$m-size auto $m-size auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+
+    .bottomBoard{
+        height: 30vh;
+        background: $blue-cherk;
+        width: 100%;
+        color:$white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 3vw;
+    }
+    .articles{
+        height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
